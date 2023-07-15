@@ -11,7 +11,7 @@ function num() {
         console.log( 1 + number)
     
     }else if (number % 3 !== 0 || number % 5 !== 0)
-         console.log('Not a multiple')
+        console.log('Not a multiple')
     
 }
 

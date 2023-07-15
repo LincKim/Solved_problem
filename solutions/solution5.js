@@ -24,10 +24,10 @@ function sum(n) {
     let choice = prompt("Enter 'sum' to compute the sum or 'product' to compute the product: ");
   
     if (choice.toLowerCase() === 'sum') {
-      let result = computeSum(n);
+      let result = sum(n);
       console.log(`The sum of numbers from 1 to ${n} is: ${result}`);
     } else if (choice.toLowerCase() === 'product') {
-      let result = computeProduct(n);
+      let result = product(n);
       console.log(`The product of numbers from 1 to ${n} is: ${result}`);
     } else {
       console.log("Invalid choice. Please try again.");
