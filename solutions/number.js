@@ -4,5 +4,14 @@ const prompt = require('prompt-sync')({sigit: true})
 
 const number = Number.parseInt(prompt('Input a number: '))
 
+function printSumOfNumber() {
+    let sum = 0
 
-console.log( 1 + number);
+    for (let i = 1; i <= number; i++) {
+        sum += i   // This is where the sum of i is added into the variable
+    }
+
+    console.log(sum);
+}
+
+printSumOfNumber()
