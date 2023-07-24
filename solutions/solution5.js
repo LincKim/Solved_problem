@@ -1,22 +1,23 @@
 // Write a program that asks the user for a number n and gives them the possibility to choose between computing the sum and computing the product of 1,…,n.
 
-const prompt = require('prompt-sync')({sigit: true})
+const prompt = require('prompt-sync')({sigint: true})
 
 
-function sum(n) {
-    let total = 0;
+  function sum(n) {
+    let sumTotal = 0
     for (let i = 1; i <= n; i++) {
-      total += i;
+      sumTotal += i
     }
-    return total;
+    return sumTotal;
   }
   
+
   function product(n) {
-    let product = 1;
-    for (let i = 1; i <= n; i++) {
-      product *= i;
+    let totalProduct = 1
+    for (let j = 1; j <= n; j++) {
+      totalProduct *= j
     }
-    return product;
+    return totalProduct;
   }
   
   function calculate() {
