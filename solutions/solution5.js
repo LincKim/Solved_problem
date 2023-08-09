@@ -6,16 +6,15 @@ const prompt = require('prompt-sync')({sigint: true})
   function sum(n) {
     let sumTotal = 0
     for (let i = 1; i <= n; i++) {
-      sumTotal += i
+      sumTotal += i  // Adds up all the numbers in the iteration
     }
     return sumTotal;
   }
   
-
   function product(n) {
     let totalProduct = 1
     for (let j = 1; j <= n; j++) {
-      totalProduct *= j
+      totalProduct *= j  // Multiplies all the numbers in the iteration
     }
     return totalProduct;
   }

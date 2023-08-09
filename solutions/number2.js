@@ -16,7 +16,7 @@ function num() {
     if (sum !== 0) { // At this point is when we print the sum after the loop is done
         console.log(`The sum of the multiples of 3 and 5 is ${sum}`)
     }else {
-        console.log('Not a multiple')
+        console.log('Not a multiple or number too small')
     }
 
 }
