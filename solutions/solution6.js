@@ -10,9 +10,10 @@ function multiplicationTable() {
       table += '\n'  // the '\n' (newline character) move items to new line
     }
   
-    console.log(table)
+   return table
   }
   
-  multiplicationTable();
+
+  console.log(multiplicationTable());
   
 // * create a function to display the table
