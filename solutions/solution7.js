@@ -15,7 +15,7 @@ function isPrime(num) {
   }
   
   function printPrimeNumbers() {
-    for (let i = 2; i <= Number.MAX_SAFE_INTEGER; i++) { // This constant is used to find the maximum   integer
+    for (let i = 2; i <= Number.MAX_SAFE_INTEGER; i++) { // This constant is used to find the maximum integer
       if (isPrime(i)) {
         console.log(i)
       }
